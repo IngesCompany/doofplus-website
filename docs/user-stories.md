@@ -48,6 +48,7 @@ This document presents the functional and technical requirement user stories for
 **Acceptance Criteria:**
 - **Scenario 1: Envío exitoso:** Dado que el visitante ingresa su nombre, un correo electrónico válido y su consulta, cuando envía el formulario, entonces el sistema registra la consulta y confirma su recepción al visitante.
 - **Scenario 2: Datos inválidos:** Dado que el visitante ingresa un correo con formato inválido o deja la consulta vacía, cuando intenta enviar el formulario, entonces la consulta no se registra y se informa el motivo del error.
+- **Scenario 3: Visualización de canales de contacto y redes sociales:** Dado que el visitante accede a la sección de contacto o al footer, cuando revisa la información, entonces visualiza canales directos de contacto (correo, teléfono, sede principal y horario) y acceso a las cuentas de redes sociales de DoofPlus.
 
 ---
 

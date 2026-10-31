@@ -30,21 +30,18 @@
     "badge_text": "<strong>B-26038</strong> · Paracetamol 500 mg · 6/6 verificaciones aprobadas · Aprobado por María México"
   },
   "workspace": {
-    "overline": "Comienza",
-    "title": "Elige tu espacio de trabajo",
-    "subtitle": "Ingresa al entorno de tu segmento en la Web Application. Después de iniciar sesión, tu rol y tu planta determinan los módulos y aprobaciones que puedes usar.",
+    "overline": "Tu espacio de trabajo",
+    "title": "Un espacio de trabajo para cada rol",
+    "subtitle": "Cada segmento trabaja en su propio entorno de la Web Application. Después de iniciar sesión, tu rol y tu planta determinan los módulos y aprobaciones que puedes usar.",
     "qa_tag": "QA / QC",
     "qa_title": "Para especialistas QA/QC",
     "qa_text": "Aprueba documentos, revisa resultados analíticos, gestiona desviaciones y CAPA, y libera lotes con firma electrónica.",
-    "qa_cta": "Ingresar al entorno QA/QC →",
     "prod_tag": "Producción",
     "prod_title": "Para supervisores de producción",
     "prod_text": "Crea órdenes de producción, sigue cada lote en tiempo real, recibe materias primas y reacciona a las alertas IoT de la línea.",
-    "prod_cta": "Ingresar al entorno de Producción →",
     "new_title": "¿Nuevo en DoofPlus?",
-    "new_text": "El administrador del laboratorio registra la organización y luego invita al equipo. ¿Tienes alguna duda antes? Escribe a nuestro equipo.",
-    "register": "Registra tu laboratorio",
-    "contact": "Contáctanos"
+    "new_text": "El administrador del laboratorio registra la organización, elige el plan y luego invita al equipo.",
+    "cta": "Comenzar ↓"
   },
   "services": {
     "overline": "Lo que ofrecemos",
@@ -146,7 +143,6 @@
     "standard_f2": "Hasta 10 cuentas de usuario",
     "standard_f3": "Dashboard de telemetría en tiempo real",
     "standard_f4": "Registros digitales de lote y audit trail",
-    "standard_cta": "Elegir Standard Lab",
     "enterprise_name": "Enterprise",
     "enterprise_desc": "Para grandes instituciones y entidades de salud pública con varias líneas.",
     "enterprise_badge": "El más completo",
@@ -156,8 +152,7 @@
     "enterprise_f2": "Dispositivos IoT y usuarios ilimitados",
     "enterprise_f3": "Gestión multisede",
     "enterprise_f4": "Analítica avanzada de KPI",
-    "enterprise_cta": "Elegir Enterprise",
-    "note": "Precios en dólares estadounidenses; no incluyen impuestos. Puedes cambiar o cancelar tu plan antes de la fecha de renovación."
+    "note": "Precios en dólares estadounidenses; no incluyen impuestos. El plan se elige al registrar el laboratorio en la Web Application y se puede cambiar o cancelar antes de la fecha de renovación."
   },
   "testimonials": {
     "overline": "Testimonios",
@@ -184,9 +179,7 @@
     "q4": "¿Puedo cambiar o cancelar mi plan?",
     "a4": "Sí. El administrador del laboratorio puede pasar de Standard Lab a Enterprise, o al revés, o cancelar antes de la fecha de renovación. El pago anual ahorra el equivalente a dos meses.",
     "q5": "¿Cómo se protege mi información?",
-    "a5": "Los datos se cifran en tránsito, el acceso es por roles con autenticación de dos factores en los pasos críticos y cada cambio queda registrado en el audit trail. Los datos personales se tratan según la Ley de Protección de Datos Personales del Perú (Ley N.° 29733).",
-    "more": "¿No encontraste tu respuesta?",
-    "contact": "Contacta al equipo de DoofPlus →"
+    "a5": "Los datos se cifran en tránsito, el acceso es por roles con autenticación de dos factores en los pasos críticos y cada cambio queda registrado en el audit trail. Los datos personales se tratan según la Ley de Protección de Datos Personales del Perú (Ley N.° 29733)."
   },
   "about": {
     "overline": "Nosotros",
@@ -219,32 +212,6 @@
     "soon": "El video del equipo se publicará pronto en el canal de YouTube de DoofPlus.",
     "unavailable": "El video no está disponible en este momento. Puedes verlo en el canal de YouTube de DoofPlus."
   },
-  "contact": {
-    "overline": "Contacto",
-    "title": "¿Listo para digitalizar la gestión de calidad de tu laboratorio?",
-    "text": "Envíanos tu consulta sobre la plataforma o los planes y nuestro equipo te responderá en un plazo de dos días hábiles.",
-    "info": "doofplus.inges@gmail.com · Lima, Perú"
-  },
-  "form": {
-    "name": "Nombre completo",
-    "name_ph": "p. ej. María Pérez",
-    "email": "Correo de trabajo",
-    "email_ph": "nombre@laboratorio.com.pe",
-    "lab": "Nombre del laboratorio",
-    "optional": "(opcional)",
-    "lab_ph": "p. ej. Laboratorios Andinos S.A.C.",
-    "message": "Tu consulta",
-    "message_ph": "Cuéntanos qué te gustaría saber sobre DoofPlus.",
-    "submit": "Enviar consulta",
-    "disclaimer": "Al enviar aceptas nuestra Política de Privacidad. Respondemos en un plazo de dos días hábiles.",
-    "error_banner": "Tu consulta no se envió. Revisa los campos resaltados.",
-    "error_name": "Ingresa tu nombre.",
-    "error_email": "Ingresa un correo válido, p. ej. nombre@laboratorio.com.pe.",
-    "error_message": "Escribe tu consulta.",
-    "success_title": "Consulta enviada",
-    "success_text": "Gracias, {name}. Nuestro equipo te responderá a <strong>{email}</strong> en un plazo de dos días hábiles.",
-    "again": "Enviar otra consulta"
-  },
   "footer": {
     "tagline": "Gestión de calidad farmacéutica con IoT y cumplimiento regulatorio.",
     "product": "Producto",
@@ -261,8 +228,7 @@
     "terms": "Términos de Servicio",
     "privacy": "Política de Privacidad",
     "copyright": "Copyright © 2026 IngesCompany. Todos los derechos reservados.",
-    "qa_access": "Acceso QA/QC",
-    "prod_access": "Acceso Producción"
+    "social": "Redes Sociales"
   },
   "legal": {
     "overline": "Legal",
@@ -293,5 +259,22 @@
     "p4_text": "Solo compartimos los datos necesarios con proveedores del servicio: ThingsBoard (telemetría IoT), Niubiz (pagos) y nuestro proveedor en la nube, bajo acuerdos de confidencialidad.",
     "p5_title": "5. Tus derechos",
     "p5_text": "Puedes ejercer tus derechos de acceso, rectificación, cancelación y oposición (ARCO) escribiendo a doofplus.inges@gmail.com. También puedes presentar un reclamo ante la Autoridad Nacional de Protección de Datos Personales del Perú."
+  },
+  "cta": {
+    "overline": "Comienza a usar DoofPlus",
+    "title": "¿Listo para modernizar la gestión de calidad de tu laboratorio?",
+    "subtitle": "Prueba nuestra aplicación web desplegada en acción. Centraliza registros de lote, gestiona desviaciones en tiempo real y cumple con los estándares de DIGEMID.",
+    "qa_btn": "Soy especialista QA/QC · Iniciar sesión →",
+    "prod_btn": "Soy supervisor de producción · Iniciar sesión →",
+    "new_label": "¿Laboratorio nuevo?",
+    "register": "Registra tu laboratorio →",
+    "trust": "SaaS en la nube · Acceso instantáneo · Seguridad por roles · Compatible con BPM y DIGEMID"
+  },
+  "social": {
+    "linkedin": "DoofPlus en LinkedIn",
+    "github": "DoofPlus en GitHub",
+    "twitter": "DoofPlus en X (Twitter)",
+    "youtube": "DoofPlus en YouTube",
+    "instagram": "DoofPlus en Instagram"
   }
 }

@@ -7,7 +7,7 @@ const DEFAULT_LANG = 'en';
 const LANG_TAGS = { en: 'en-US', es: 'es-419' };
 
 /**
- * Loads the texts of the Landing Page from public/assets/i18n/<lang>.json and
+ * Loads the texts of the Landing Page from assets/i18n/<lang>.json and
  * applies them to the elements that declare data-i18n attributes:
  * - data-i18n: inner HTML of the element.
  * - data-i18n-placeholder, data-i18n-aria, data-i18n-alt: placeholder, aria-label and alt.
