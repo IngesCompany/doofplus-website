@@ -11,26 +11,35 @@ HTML5, CSS3 and JavaScript (ES modules), with no framework. Texts in English (de
 
 ## Run locally
 
+No installation is needed: serve the `public/` folder with any static server, for example the **Live Server** extension of VS Code (open `public/index.html` and choose *Open with Live Server*) or:
+
 ```bash
-npm install
-npm start
+cd public
+python -m http.server 8080
 ```
 
-The site opens at `http://localhost:8080` with the browser cache disabled. On `localhost`, the sign-in and call to action buttons open the Web Application running locally at `http://localhost:4200` (`ng serve`); on any other host they open the published Web Application.
+The site must be opened through a server (`http://localhost:...`), not by double-clicking the file, because the scripts are ES modules and the texts are loaded with `fetch`. On `localhost`, the sign-in and call to action buttons open the Web Application running locally at `http://localhost:4200` (`ng serve`); on any other host they open the published Web Application.
 
 ## Structure
 
 ```text
-index.html              Landing Page
-terms.html, privacy.html  Legal pages linked from the footer
-404.html                Page shown by GitHub Pages for unknown paths
-public/assets/
-  i18n/                 English and Spanish texts (en.json, es.json)
-  images/               Logo and pictures
-  scripts/              Entry point (main.js), settings (config.js), i18n and one module per component
-  styles/               Variables, reset, layout, grid, components, sections and responsive rules
-docs/                   User stories of the Landing Page
+public/                   Everything that is published
+  index.html              Landing Page
+  terms.html, privacy.html  Legal pages linked from the footer
+  404.html                Page shown by GitHub Pages for unknown paths
+  favicon.ico, robots.txt
+  assets/
+    scripts/              Entry point (main.js), settings (config.js), i18n and one module per component
+    styles/               Variables, reset, layout, grid, components, sections and responsive rules
+    images/               Logo, pictures, team photos and custom cursors
+    i18n/                 English and Spanish texts (en.json, es.json)
+docs/                     User stories of the Landing Page
+.github/workflows/        Deployment of public/ to GitHub Pages
 ```
+
+## Deployment
+
+Every push to `main` publishes the `public/` folder on GitHub Pages through GitHub Actions. In the repository settings, *Pages → Build and deployment → Source* must be set to **GitHub Actions**.
 
 ## Contributing
 
