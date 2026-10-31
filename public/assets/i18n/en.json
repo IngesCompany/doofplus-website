@@ -14,9 +14,7 @@
     "get_started": "Get Started",
     "menu": "Open menu",
     "skip": "Skip to main content",
-    "close": "Close menu",
-    "back": "← Back to DoofPlus",
-    "back_short": "← Back"
+    "close": "Close menu"
   },
   "hero": {
     "overline": "GMP · DIGEMID · IoT · Audit trail",

@@ -30,16 +30,6 @@
   width: auto;
 }
 
-.brand-group {
-  display: flex;
-  align-items: center;
-  gap: 24px;
-}
-
-.back-link {
-  font-size: 14px;
-}
-
 .nav-links {
   display: flex;
   gap: 36px;
@@ -251,10 +241,3 @@
   color: var(--teal-bright);
 }
 
-.footer-simple {
-  padding: 20px 0;
-}
-
-.footer-simple .footer-bottom {
-  padding-top: 0;
-}

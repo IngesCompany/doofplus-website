@@ -1,4 +1,5 @@
 import { i18n } from './i18n.js';
+import { loadPartials } from './partials.js';
 import { initializeLanguageSwitcher } from './components/language-switcher.js';
 import { initializeNavbar } from './components/navbar.js';
 import { initializeSegmentAccess } from './components/segment-access.js';
@@ -9,9 +10,16 @@ import { initializeMagneticEffect } from './effects/magnetic.effect.js';
 
 /**
  * Entry point of the Landing Page.
+ * The shared header and footer are loaded first, then the texts and the components.
  * Each component checks that its elements exist on the current page.
  */
 document.addEventListener('DOMContentLoaded', async () => {
+  try {
+    await loadPartials();
+  } catch (error) {
+    console.error(error);
+  }
+
   try {
     await i18n.init();
   } catch (error) {
