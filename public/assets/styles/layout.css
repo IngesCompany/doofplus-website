@@ -144,11 +144,6 @@
   background: var(--gray-bg);
 }
 
-.section-teal {
-  background: var(--teal);
-  color: #fff;
-}
-
 .overline {
   display: inline-block;
   margin-bottom: 10px;
@@ -174,8 +169,7 @@
   font-size: 17px;
 }
 
-.section-dark .section-subtitle,
-.section-teal .section-subtitle {
+.section-dark .section-subtitle {
   color: #94a3b8;
 }
 

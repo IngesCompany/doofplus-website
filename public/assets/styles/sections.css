@@ -656,11 +656,6 @@
   margin-top: 40px;
 }
 
-.faq-more {
-  margin-top: 24px;
-  font-size: 14px;
-}
-
 /* ---------- About ---------- */
 
 .about-grid {
@@ -865,108 +860,6 @@
     margin-top: 32px;
     color: #64748b;
     font-size: 13px;
-}
-
-
-/* ---------- Contact Channels and Social Media (US04) ---------- */
-
-.contact-channels {
-  margin-top: 28px;
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-
-.contact-channel-list {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.contact-channel-item {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  color: #fff;
-  text-decoration: none;
-  transition: opacity 0.2s;
-}
-
-a.contact-channel-item:hover {
-  opacity: 0.9;
-}
-
-.contact-channel-icon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 42px;
-  height: 42px;
-  border-radius: 12px;
-  background: rgba(255, 255, 255, 0.16);
-  color: #fff;
-  flex-shrink: 0;
-}
-
-.contact-channel-text {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-}
-
-.contact-channel-label {
-  font-size: 11px;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--teal-pale);
-  font-weight: 600;
-}
-
-.contact-channel-val {
-  font-size: 14px;
-  color: #fff;
-  font-weight: 500;
-}
-
-.contact-social {
-  margin-top: 4px;
-  padding-top: 20px;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.contact-social-title {
-  font-size: 12px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--teal-pale);
-  margin-bottom: 12px;
-}
-
-.social-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.social-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 8px 14px;
-  border-radius: var(--radius-pill);
-  background: rgba(255, 255, 255, 0.14);
-  color: #fff;
-  font-size: 13px;
-  font-weight: 500;
-  border: 1px solid rgba(255, 255, 255, 0.22);
-  transition: background-color 0.2s, border-color 0.2s, transform 0.15s;
-}
-
-.social-link:hover {
-  background: rgba(255, 255, 255, 0.26);
-  border-color: #fff;
-  transform: translateY(-1px);
 }
 
 /* ---------- Footer Social Icons ---------- */
