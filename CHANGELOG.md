@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.1.0] - 2026-10-31
+### Fixed
+- Update Footer section with contact info
+### Added
+- "Call-to-action" section to the frontend application
+### Remove
+- "Contact" section
+
 ## [2.0.0] - 2026-10-10
 ### Fixed
 - Update Hero section according to the required design
