@@ -1,5 +1,5 @@
-import { i18n } from '../i18n.js';
-import { VIDEO_URLS } from '../config.js';
+import { i18n } from './i18n.js';
+import { VIDEO_URLS } from './config.js';
 
 /**
  * About-the-Product (US49) and About-the-Team videos. Each player loads its

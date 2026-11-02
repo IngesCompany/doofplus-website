@@ -30,16 +30,6 @@
   width: auto;
 }
 
-.brand-group {
-  display: flex;
-  align-items: center;
-  gap: 24px;
-}
-
-.back-link {
-  font-size: 14px;
-}
-
 .nav-links {
   display: flex;
   gap: 36px;
@@ -144,11 +134,6 @@
   background: var(--gray-bg);
 }
 
-.section-teal {
-  background: var(--teal);
-  color: #fff;
-}
-
 .overline {
   display: inline-block;
   margin-bottom: 10px;
@@ -174,8 +159,7 @@
   font-size: 17px;
 }
 
-.section-dark .section-subtitle,
-.section-teal .section-subtitle {
+.section-dark .section-subtitle {
   color: #94a3b8;
 }
 
@@ -257,10 +241,3 @@
   color: var(--teal-bright);
 }
 
-.footer-simple {
-  padding: 20px 0;
-}
-
-.footer-simple .footer-bottom {
-  padding-top: 0;
-}

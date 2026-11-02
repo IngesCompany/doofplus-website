@@ -14,19 +14,7 @@
     <link rel="stylesheet" href="assets/styles/main.css">
 </head>
 <body class="page-simple">
-<a class="skip-link" href="#main" data-i18n="nav.skip">Skip to main content</a>
-<header class="navbar">
-    <div class="container navbar-inner">
-        <div class="brand-group">
-            <a href="index.html" class="brand"><img src="assets/images/doofplus-logo.png" alt="DoofPlus" class="brand-logo"></a>
-            <a href="index.html" class="link-teal back-link"><span class="desktop-only" data-i18n="nav.back">← Back to DoofPlus</span><span class="mobile-only" data-i18n="nav.back_short">← Back</span></a>
-        </div>
-        <div class="lang-switch" role="group" aria-label="Language">
-            <button class="lang-btn active" type="button" data-lang="en">EN</button>
-            <button class="lang-btn" type="button" data-lang="es">ES</button>
-        </div>
-    </div>
-</header>
+<div data-partial="header"></div>
 
 <main class="simple-main" id="main">
     <article class="container legal">
@@ -42,15 +30,7 @@
     </article>
 </main>
 
-<footer class="footer footer-simple">
-    <div class="container footer-bottom">
-        <p data-i18n="footer.copyright"></p>
-        <div class="footer-legal">
-            <a href="terms.html" class="underline" data-i18n="footer.terms"></a>
-            <a href="privacy.html" class="underline" data-i18n="footer.privacy"></a>
-        </div>
-    </div>
-</footer>
+<div data-partial="footer"></div>
 
 <script type="module" src="assets/scripts/main.js"></script>
 </body>

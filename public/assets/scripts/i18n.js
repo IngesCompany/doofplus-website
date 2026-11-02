@@ -1,4 +1,4 @@
-import { readStorage, writeStorage } from './utils/storage.js';
+import { readStorage, writeStorage } from './storage.js';
 
 const LANG_KEY = 'doofplus-lang';
 const DEFAULT_LANG = 'en';

@@ -23,9 +23,7 @@
   .grid-4 > * { grid-column: span 6; }
 
   /* Team: two cards per row, the fifth one centered (columns 4-9). */
-  .team-grid > *,
-  .team-grid > :nth-child(4) { grid-column: span 6; }
-  .team-grid > :nth-child(5) { grid-column: 4 / span 6; }
+  .team-grid > * { grid-column: span 6; }
 
   /* Footer: brand on its own row, four link groups of 3 columns. */
   .footer-grid > * { grid-column: span 3; }
@@ -306,20 +304,6 @@
     padding: 24px 20px;
   }
 
-  .faq-more a {
-    display: block;
-    margin-top: 4px;
-  }
-
-  .social-links {
-    gap: 8px;
-  }
-
-  .social-link {
-    padding: 7px 12px;
-    font-size: 12px;
-  }
-
   .cta-inner h2 {
     font-size: 24px;
   }
@@ -331,7 +315,7 @@
     gap: 20px;
   }
 
-  .footer:not(.footer-simple) .footer-bottom > p {
+  .footer .footer-bottom > p {
     padding-top: 20px;
     border-top: 1px solid var(--navy-soft);
   }
