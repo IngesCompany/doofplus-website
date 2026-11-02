@@ -23,9 +23,7 @@
   .grid-4 > * { grid-column: span 6; }
 
   /* Team: two cards per row, the fifth one centered (columns 4-9). */
-  .team-grid > *,
-  .team-grid > :nth-child(4) { grid-column: span 6; }
-  .team-grid > :nth-child(5) { grid-column: 4 / span 6; }
+  .team-grid > * { grid-column: span 6; }
 
   /* Footer: brand on its own row, four link groups of 3 columns. */
   .footer-grid > * { grid-column: span 3; }
