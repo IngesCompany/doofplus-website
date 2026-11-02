@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.1.1] - 2026-11-01
+### Fixed
+- GitHub link of the footer and published site URL of the README point to the IngesCompany organization.
+
 ## [2.1.0] - 2026-10-31
 ### Fixed
 - Update Footer section with contact info
