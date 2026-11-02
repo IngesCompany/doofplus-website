@@ -1,4 +1,4 @@
-import { i18n } from '../i18n.js';
+import { i18n } from './i18n.js';
 
 /**
  * Navbar of the landing page (US44): full-screen mobile menu and

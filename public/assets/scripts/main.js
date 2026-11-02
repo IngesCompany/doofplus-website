@@ -1,12 +1,12 @@
 import { i18n } from './i18n.js';
 import { loadPartials } from './partials.js';
-import { initializeLanguageSwitcher } from './components/language-switcher.js';
-import { initializeNavbar } from './components/navbar.js';
-import { initializeSegmentAccess } from './components/segment-access.js';
-import { initializeAccordions } from './components/accordion.js';
-import { initializeBillingToggle } from './components/billing-toggle.js';
-import { initializeVideoPlayers } from './components/video-player.js';
-import { initializeMagneticEffect } from './effects/magnetic.effect.js';
+import { initializeLanguageSwitcher } from './language-switcher.js';
+import { initializeNavbar } from './navbar.js';
+import { initializeSegmentAccess } from './segment-access.js';
+import { initializeAccordions } from './accordion.js';
+import { initializeBillingToggle } from './billing-toggle.js';
+import { initializeVideoPlayers } from './video-player.js';
+import { initializeMagneticEffect } from './magnetic.effect.js';
 
 /**
  * Entry point of the Landing Page.
