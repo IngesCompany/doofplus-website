@@ -2,7 +2,7 @@
 
 Landing Page of **DoofPlus**, the quality management and batch traceability platform for pharmaceutical laboratories, built by IngesCompany. It presents the value proposition to QA/QC specialists and production supervisors and ends with a call to action for each segment, which opens the corresponding view of the DoofPlus Web Application.
 
-- Published site: https://ingescompany-7742.github.io/IngesCompany-LandingPage/
+- Published site: https://ingescompany.github.io/doofplus-website/
 - Web Application: https://doofplus-webapp.web.app
 
 ## Technologies
