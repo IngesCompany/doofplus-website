@@ -1,4 +1,4 @@
-# Contributing to IngesCompany-Website
+# Contributing to doofplus-website
 
 First off, thanks for taking the time to contribute!
 

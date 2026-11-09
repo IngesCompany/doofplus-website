@@ -1,4 +1,4 @@
-import { APP_ROUTES, WEB_APP_URL } from '../config.js';
+import { APP_ROUTES, WEB_APP_URL } from './config.js';
 
 /**
  * Access buttons of the final call to action: QA/QC specialists and production

@@ -1,7 +1,7 @@
 /* Custom cursors in the DoofPlus colors. Each one falls back to the system cursor. */
 
 body {
-  cursor: url("../images/cursors/cursor.svg") 3 3, auto;
+  cursor: url("../images/cursor.svg") 3 3, auto;
 }
 
 a,
@@ -9,7 +9,7 @@ button,
 summary,
 [role="button"],
 input[type="submit"] {
-  cursor: url("../images/cursors/pointer.svg") 3 3, pointer;
+  cursor: url("../images/pointer.svg") 3 3, pointer;
 }
 
 a *,
@@ -20,7 +20,7 @@ button * {
 input[type="email"],
 input[type="text"],
 textarea {
-  cursor: url("../images/cursors/text.svg") 16 16, text;
+  cursor: url("../images/text.svg") 16 16, text;
 }
 
 /* Touch screens keep the system cursors. */
