@@ -14,7 +14,9 @@
     "get_started": "Comenzar",
     "menu": "Abrir menú",
     "skip": "Saltar al contenido principal",
-    "close": "Cerrar menú"
+    "close": "Cerrar menú",
+    "back": "← Volver a DoofPlus",
+    "back_short": "← Volver"
   },
   "hero": {
     "overline": "BPM · DIGEMID · IoT · Audit trail",
