@@ -16,8 +16,8 @@ export const WEB_APP_URL = IS_LOCAL ? 'http://localhost:4200' : 'https://doofplu
  * Paste each URL when the video is published on YouTube.
  */
 export const VIDEO_URLS = {
-  product: '',
-  team: ''
+  product: 'https://www.youtube.com/embed/saSnknxFqKw',
+  team: 'https://www.youtube.com/embed/U-Wlk2l3wbA'
 };
 
 /** Web Application routes opened by the sign-in link and the call to action buttons (US48). */
