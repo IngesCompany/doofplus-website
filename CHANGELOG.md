@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.3.0] - 2026-11-15
+### Added
+- About-the-Product and About-the-Team videos in their players (US49).
+- Link back to the website on the terms and privacy pages.
+- 404 page.
+### Fixed
+- Team role labels match the published team.
+
 ## [2.2.0] - 2026-11-09
 ### Added
 - Alisee Torres in the Our Team section, with her photo and her description in English and Spanish.
