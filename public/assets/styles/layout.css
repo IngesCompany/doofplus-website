@@ -30,6 +30,17 @@
   width: auto;
 }
 
+.brand-group {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.back-link {
+  font-size: 14px;
+  white-space: nowrap;
+}
+
 .nav-links {
   display: flex;
   gap: 36px;
